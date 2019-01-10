@@ -1,0 +1,19 @@
+{
+  "name": "browserify",
+  "version": "1.0.0",
+  "description": "Browserify tes app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-dev": "nodemon server.js",
+    "build": "browserify ./project/app/index.js -o ./project/dist/index.js"
+  },
+  "author": "Leonardo Tosetto ( leonardo.a.tosetto@gmail.com )",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "hapi": "^17.8.1",
+    "inert": "^5.1.2"
+  }
+}
