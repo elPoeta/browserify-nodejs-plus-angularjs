@@ -1,5 +1,4 @@
 const Path = require('path');
-const Path = require('path');
 const InitServer = require('./initServer');
 
 const initServer = new InitServer({

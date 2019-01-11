@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "start-dev": "nodemon server.js",
-    "build": "browserify ./project/app/index.js -o ./project/dist/index.js"
+    "build": "browserify ./project/app/index.js -o ./project/dist/index.min.js"
   },
   "author": "Leonardo Tosetto ( leonardo.a.tosetto@gmail.com )",
   "license": "MIT",
